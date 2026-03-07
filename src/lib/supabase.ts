@@ -7,6 +7,6 @@ const supabaseUrl =
 
 const supabaseAnonKey =
   import.meta.env.VITE_SUPABASE_ANON_KEY ||
-  'COLE_AQUI_SUA_PUBLISHABLE_KEY_COMPLETA';
+  'sb_publishable_r48v59fVPAcVFrsDoYNzZA_hxYx5fKn';
 
 export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey);
